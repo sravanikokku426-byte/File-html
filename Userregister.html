@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>
+                User    Register
+        </title>
+        <style>
+            form {
+                background-color: rgb(200, 255, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <form action= "useraction.php" method="POST"> 
+            <input type="text" name="username" placeholder="Enter the user Name...."required="true" readonly value="sravani" disabled>
+            <br><br>
+            <input type="number" name="Mobilenumber" placeholder="Enter the mobilenumber" required>
+            <br><br>
+            <input type="email" name="email" placeholder=" Enter the email" required>
+            <br><br>
+            <input type="password" name="password" placeholder="Enter the password" required>
+            <br><br>
+            <input type="date" name="date" placeholder="enter the date" required>
+            <br><br>
+            <input type="time" name="time" required>
+            <br><br>
+            <input type="tel" name="tel" required>
+            <br><br>
+            <input type="radio" name="gender" value="Male" required>Male
+            <br><br>
+            <input type="radio" name="gender" value="Female" required>Female
+            <br><br>
+            <input type="checkbox" name="Accept" required>Data Accepted
+            <br><br>
+            <input type="range" min="0" max="100" required> Age number
+            <br><br>
+            <input type="color" name="color" required>
+            <br><br>
+            <input type="file" name="file" required>
+            <br><br>
+            <input type="hidden" value="sravani" name="names">
+            <br><br>
+            <select name="Branch[]" multiple size="3" required>
+                <option value="ECE">ECE </option>
+                <option value="CSE">CSE </option>
+                <option value="EEE">EEE </option>
+                <option value="AIML">AIML </option>
+                <option value="DS">DS </option>
+            </select><br><br>
+            <input type="file" name="file[]" muliple required>
+            <br><br>
+            <textarea name="address"
+                       cols="10"  rows="3"
+                       placeholder="Enter your address"
+                       required> </textarea>
+                       <br><br>
+
+            <input type="submit" name="submit" value="submit">
+            <br><br>
+             <input type="reset" value="Reset">
+            <br><br>
+            <input type="button" value="button">
+            <br><br>
+            
+            
+         </form>
+    </body>
+</html>
